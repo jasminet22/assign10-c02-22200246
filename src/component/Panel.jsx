@@ -6,7 +6,7 @@ import Operators from './Operators';
 import { useEffect } from 'react';
 
 const Panel = () => {
-    const [num] = useState(['9','8','7','6','5','4','3','2','1','.','0','=']);
+    const [num] = useState(['1','2','3','4','5','6','7','8','9','.','0','=']);
     const [key] = useState(['AC','DEL','%','+/-']);
     const [operators] = useState(['+','x','÷','-']);
     const [screen, setScreen] = useState('');
