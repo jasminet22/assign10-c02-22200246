@@ -10,11 +10,22 @@ React와 JavaScript로 만든 계산기 프로젝트이며, README와 package.js
 - 메모리 기능과 입력 초기화
 
 ## Project Structure
+- src/main.jsx: 브라우저에 react 를 연결하여 실행하는 역할
+- src/App.jsx: 브라우저에 panel을 배치하는 역할 
 
 ## React Component
+- panel: 계산기 화면과 동작을 담당하는 중심 component
+- key: ac, del, %, +/-같은 기능 버튼 표시
 
 ## Code Analysis
+- code: 
+<div className="numplaceholder gap-4 grid grid-cols-3 sm:p-5 p-3">
+                        {num.map((element,idx)=>(
+                        <Numkey key={idx} number={element} onClick={()=>display(element)}/>
+                    ))}
+                    </div>
 
+- analysis: num 배열에 들어있는 값들을 map으로 하나씩 꺼내 numkey 컴포넌트를 만들고, 표시할 값과 onClick 함수를 전달하는 역할을 한다.
 
 
 
