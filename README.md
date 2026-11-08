@@ -1,3 +1,23 @@
+# 과제 프로젝트
+
+## 선택 이유
+React와 JavaScript로 만든 계산기 프로젝트이며, README와 package.json이 포함되어 있고, 별도의 백엔드나 데이터베이스 없이 실행할 수 있고, 수정 및 재배포가 가능한 라이선스를 가지고 있어서 요구조건에 적합하다는 생각이 들어 선택하게 되었다.
+그리고 계산기라는 간단한 기능을 구현하고 있어 코드를 분석하는 것에 어려움을 느끼지 않을 것 같았다. 
+
+## 주요 기능
+- 덧셈, 뺄셈, 곱셈, 나눗셈
+- 키보드 입력을 통한 계산
+- 메모리 기능과 입력 초기화
+
+## Project Structure
+
+## React Component
+
+## Code Analysis
+
+
+
+
 # React Calculator 🧮
 
 A modern, interactive calculator built with React, featuring smooth animations and a sleek design. Perfect for learning React hooks, state management, and building interactive user interfaces.
